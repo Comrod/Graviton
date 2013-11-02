@@ -9,5 +9,8 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface MyScene : SKScene
+{
+    SKSpriteNode *sprite;
+}
 
 @end

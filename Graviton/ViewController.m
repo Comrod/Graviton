@@ -14,6 +14,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.motionManager = [[CMMotionManager alloc] init];
 
     // Configure the view.
     SKView * skView = (SKView *)self.view;

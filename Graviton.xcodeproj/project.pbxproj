@@ -24,6 +24,9 @@
 		242050081824B98200E2687B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24204FE31824B98100E2687B /* UIKit.framework */; };
 		242050101824B98200E2687B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2420500E1824B98200E2687B /* InfoPlist.strings */; };
 		242050121824B98200E2687B /* GravitonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242050111824B98200E2687B /* GravitonTests.m */; };
+		2420501D1824BBB000E2687B /* 650 left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2420501B1824BBB000E2687B /* 650 left.png */; };
+		2420501E1824BBB000E2687B /* 650 right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2420501C1824BBB000E2687B /* 650 right.png */; };
+		242050201824C0F300E2687B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2420501F1824C0F300E2687B /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		2420500D1824B98200E2687B /* GravitonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GravitonTests-Info.plist"; sourceTree = "<group>"; };
 		2420500F1824B98200E2687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		242050111824B98200E2687B /* GravitonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravitonTests.m; sourceTree = "<group>"; };
+		2420501B1824BBB000E2687B /* 650 left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "650 left.png"; sourceTree = "<group>"; };
+		2420501C1824BBB000E2687B /* 650 right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "650 right.png"; sourceTree = "<group>"; };
+		2420501F1824C0F300E2687B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				242050201824C0F300E2687B /* CoreMotion.framework in Frameworks */,
 				24204FE21824B98100E2687B /* CoreGraphics.framework in Frameworks */,
 				24204FE41824B98100E2687B /* UIKit.framework in Frameworks */,
 				24204FE61824B98100E2687B /* SpriteKit.framework in Frameworks */,
@@ -109,6 +116,7 @@
 		24204FDE1824B98100E2687B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2420501F1824C0F300E2687B /* CoreMotion.framework */,
 				24204FDF1824B98100E2687B /* Foundation.framework */,
 				24204FE11824B98100E2687B /* CoreGraphics.framework */,
 				24204FE31824B98100E2687B /* UIKit.framework */,
@@ -129,6 +137,8 @@
 				24204FF91824B98100E2687B /* MyScene.h */,
 				24204FFA1824B98200E2687B /* MyScene.m */,
 				24204FFC1824B98200E2687B /* Spaceship.png */,
+				2420501B1824BBB000E2687B /* 650 left.png */,
+				2420501C1824BBB000E2687B /* 650 right.png */,
 				24204FFE1824B98200E2687B /* Images.xcassets */,
 				24204FE81824B98100E2687B /* Supporting Files */,
 			);
@@ -240,10 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2420501D1824BBB000E2687B /* 650 left.png in Resources */,
 				24204FEC1824B98100E2687B /* InfoPlist.strings in Resources */,
 				24204FFF1824B98200E2687B /* Images.xcassets in Resources */,
 				24204FFD1824B98200E2687B /* Spaceship.png in Resources */,
 				24204FF51824B98100E2687B /* Main.storyboard in Resources */,
+				2420501E1824BBB000E2687B /* 650 right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
